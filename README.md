@@ -39,3 +39,6 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal:
  🌐 Browser modern untuk menampilkan halaman web
 
 
+#Jangan lupa import file user.sql dan donasi.sql
+
+
