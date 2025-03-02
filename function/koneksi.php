@@ -1,14 +1,9 @@
 <?php
 
-// $hostname = 'localhost';
-// $username = 'root';
-// $password = '';
-// $database = 'donasi';
-
 $hostname = 'localhost';
-$username = 'ribg3268_admin';
-$password = 'li][JNcTMbf*';
-$database = 'ribg3268_donasi';
+$username = 'root';
+$password = '';
+$database = 'donasi';
 
 try {
    $conn = mysqli_connect($hostname, $username, $password, $database);
