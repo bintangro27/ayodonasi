@@ -151,6 +151,7 @@ if(isset($_POST["login"])){
                 <span class="absolute top-0 bottom-0 right-0 px-4 py-3">
                     <a href="login.php">  <svg class="fill-current h-6 w-6 text-red-500" role="button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>Close</title><path d="M14.348 5.652a1 1 0 00-1.414 0L10 8.586 7.066 5.652a1 1 0 10-1.414 1.414L8.586 10l-2.934 2.934a1 1 0 101.414 1.414L10 11.414l2.934 2.934a1 1 0 001.414-1.414L11.414 10l2.934-2.934a1 1 0 000-1.414z"/></svg></a>
                 </span>
+              </div>    
            <?php endif; ?>
             <form action="" method="post" class="space-y-4">
                 <div>
@@ -236,14 +237,15 @@ if(isset($_POST["login"])){
                 }).then(() => {
                     window.location.href = redirectUrl; // Redirect setelah SweetAlert
                 });
-            } else if (databerhasil === "error") {
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Gagal Login!',
-                    text: 'Username atau password salah.',
-                    confirmButtonText: "Coba Lagi"
-                });
             }
+            // else if (databerhasil === "error") {
+            //     Swal.fire({
+            //         icon: 'error',
+            //         title: 'Gagal Login!',
+            //         text: 'Username atau password salah.',
+            //         confirmButtonText: "Coba Lagi"
+            //     });
+            // }
         });     
     </script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
