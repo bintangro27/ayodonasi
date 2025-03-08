@@ -38,7 +38,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `password`) VALUES
-(1, 'bintang', '$2y$10$9R7IYgmcL6dfFAaJqJEqZuZTtU0mnUs4.0jr70Rh8A40CNhYZilW6');
+(1, 'admin', '$2y$10$9R7IYgmcL6dfFAaJqJEqZuZTtU0mnUs4.0jr70Rh8A40CNhYZilW6');
 
 --
 -- Indexes for dumped tables
